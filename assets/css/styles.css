@@ -326,7 +326,7 @@ table td {
   text-align: center;
 }
 .back-button {
-  background-color: #007bff;
+  background-color: #b26d09;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -335,6 +335,15 @@ table td {
   cursor: pointer;
   margin-top: 20px;
   transition: background-color 0.3s;
+}
+
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
 }
 
 .back-button:hover {
