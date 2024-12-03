@@ -16,6 +16,10 @@ body {
   justify-content: center;
 }
 
+body p{
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);	
+}
+
 header h1 {
   text-align: center;
   font-size: 2.5rem;
@@ -340,6 +344,7 @@ table th {
   background-color: #b26d09;
   color: white;
   text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);	
 }
 
 tr:nth-child(even){background-color: #ffd69b}
