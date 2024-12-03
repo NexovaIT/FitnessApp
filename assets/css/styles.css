@@ -337,10 +337,12 @@ table th, table td {
 }
 
 table th {
-  background-color: #007bff;
+  background-color: #b26d09;
   color: white;
   text-align: center;
 }
+
+tr:nth-child(even){background-color: #ffd69b}
 
 table td {
   text-align: center;
