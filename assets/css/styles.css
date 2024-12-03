@@ -304,6 +304,7 @@ button:hover {
 .workout-info p {
   font-size: 0.9rem;
   margin: 5px 0 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 .workout-card {
   background: #fff;
