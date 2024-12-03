@@ -41,7 +41,7 @@ main {
 
 .card, .workout-card {
   background: #fff;
-  color: #333;
+  color: #5c5c5c;
   padding: 30px;
   border-radius: 15px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -198,12 +198,12 @@ button:hover {
 
 .workout-card p {
   font-size: 0.9rem;
-  color: #555;
+  color: #000000;
   margin: 10px 0 0;
 }
 
 .workout-card:hover p {
-  color: #fff;
+  color: #000000;
 }
 
 .workout-card {
@@ -215,7 +215,7 @@ button:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
   background-color: #fff;
-  color: #fff;
+  color: #000000;
 }
 
 /*.workout-card[title]:hover::after {
@@ -235,7 +235,7 @@ button:hover {
 
 .workout-card {
   background: #fff;
-  color: #333;
+  color: #5c5c5c;
   padding: 20px;
   border-radius: 15px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -249,7 +249,7 @@ button:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
   background-color: #fff;
-  color: #5c5c5c;
+  color: #000000;
 }
 
 .workout-info {
@@ -260,11 +260,11 @@ button:hover {
 
 .workout-info i {
   font-size: 2.5rem;
-  color: #007bff;
+  color: #5c5c5c;
 }
 
 .workout-card:hover .workout-info i {
-  color: #5c5c5c;
+  color: #000000;
 }
 
 .workout-info div {
@@ -275,6 +275,7 @@ button:hover {
 .workout-info h2 {
   margin: 0;
   font-size: 1.6rem;
+  color: #5c5c5c;
 }
 
 .workout-info p {
