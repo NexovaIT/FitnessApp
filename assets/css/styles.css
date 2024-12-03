@@ -4,6 +4,10 @@ body {
   margin: 0;
   padding: 0;
   background: linear-gradient(135deg, #1e3c72, #2a5298);
+  background-image: url('../images/running_bg.jpeg');
+	background-size: cover; /* Ensure the image covers the entire background */
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat;
   color: white;
   height: 100vh;
   display: flex;
