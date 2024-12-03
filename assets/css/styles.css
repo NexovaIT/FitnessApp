@@ -325,7 +325,7 @@ button:hover {
 }
 
 .workout-card.completed {
-  background-color: #d4edda;
+  background-color: #fff;
   border: 4px solid #28a745;
   color: #155724;
 }
