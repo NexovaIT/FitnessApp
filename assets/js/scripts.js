@@ -132,7 +132,7 @@ function startTimer(workoutName) {
       if (timeLeft <= 10) {
         timer.style.color = "red";
       } else {
-        timer.style.color = "white";
+        timer.style.color = "#6d6d6d";
       }
     }
     timeLeft--;
