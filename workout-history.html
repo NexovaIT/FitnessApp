@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Workout History</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>Workout History</h1>
+  </header>
+  <main>
+    <table>
+      <thead>
+        <tr>
+          <th>Workout Name</th>
+          <th>Date & Time</th>
+          <th>Points</th>
+        </tr>
+      </thead>
+      <tbody id="history-table">
+      </tbody>
+    </table>
+    <button onclick="window.location.href='index.html'">Back to Home</button>
+  </main>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const workoutHistory = JSON.parse(localStorage.getItem("workoutHistory")) || [];
+      const tableBody = document.getElementById("history-table");
+
+      workoutHistory.forEach((record) => {
+        const row = `<tr>
+                      <td>${record.name}</td>
+                      <td>${record.dateTime}</td>
+                      <td>${record.points}</td>
+                     </tr>`;
+        tableBody.innerHTML += row;
+      });
+    });
+  </script>
+</body>
+</html>

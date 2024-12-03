@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Workout Portfolio</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+ <!-- <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> -->
+ 
+
+  <script src="assets/js/scripts.js" defer></script>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-2PRKIdIHOQHXqeE70HGPL1lzRQtqMOIsquVo+n5d3k5+sz7lqQtm2qg+1AjO8a/pH8ZTln2r9zTjIg+WPlN4fQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <script src="assets/js/scripts.js" defer></script>
+</head>
+<body onload="loadUserName()">
+  <header>
+    <h1>My Workout Portfolio</h1>
+    <h2 id="user-greeting"></h2>
+	<button onclick="window.location.href='index.html'" class="back-button">Back to Home</button>
+
+  </header>
+  <main class="workout-container">
+    <div>
+      <h2>My Workout Plans</h2>
+      <div class="workout-list">
+  <div class="workout-card" data-workout="Jumping Jacks" onclick="startWorkout('Jumping Jacks')">
+    <div class="workout-info">
+     <!-- <i class="fas fa-running"></i> -->
+	 <img src="assets/images/blueberryjuice.jpg" alt="Girl in a jacket" width="60" height="60">
+      <div>
+        <h2>Jumping Jacks</h2>
+        <p>Jump while spreading your legs and lifting your arms overhead.Maintain a steady rhythm to avoid injuries.</p>
+      </div>
+    </div>
+  </div>
+  <div class="workout-card" data-workout="Push Ups" onclick="startWorkout('Push Ups')">
+    <div class="workout-info">
+      <!--<i class="fas fa-dumbbell"></i> -->
+	  <img src="assets/images/blueberryjuice.jpg" alt="Girl in a jacket" width="60" height="60">
+      <div>
+        <h2>Push Ups</h2>
+        <p>Place your hands on the floor, lower your body until your chest is near the floor, then push back up.</p>
+      </div>
+    </div>
+  </div>
+  <div class="workout-card" data-workout="Squats" onclick="startWorkout('Squats')">
+    <div class="workout-info">
+      <!--<i class="fas fa-user-friends"></i> -->
+	  <img src="assets/images/blueberryjuice.jpg" alt="Girl in a jacket" width="60" height="60">
+      <div>
+        <h2>Squats</h2>
+        <p>Stand with feet shoulder-width apart. Bend your knees and lower your hips as if sitting on a chair.</p>
+      </div>
+    </div>
+  </div>
+  <div class="workout-card" data-workout="Plank" onclick="startWorkout('Plank')">
+    <div class="workout-info">
+     <!-- <i class="fas fa-align-center"></i> -->
+	 <img src="assets/images/blueberryjuice.jpg" alt="Girl in a jacket" width="60" height="60">
+      <div>
+        <h2>Plank</h2>
+        <p>Lift your body using your elbows and toes, keeping your body straight.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+    </div>
+
+    <div class="workout-progress">
+	<!-- Container for workout illustration -->
+	<div id="workout-illustration-container" style="text-align:center; margin-top: 30px;">
+  <!-- Animated SVG will be inserted here -->
+</div>
+      <h2>Workout Timer</h2>
+      <div id="timer">00:30</div>
+      <progress id="progress-bar" value="0" max="100"></progress>
+	  <div>&nbsp;</div>
+      <button onclick="stopTimer()" style="background-color: #ff4d4d;">Stop</button>
+      <h3>Overall Progress</h3>
+      <div id="overall-progress-text">0% Completed</div>
+	  <div>&nbsp;</div>
+      <progress id="overall-progress-bar" value="0" max="100"></progress>
+    </div>
+  </main>
+</body>
+</html>
