@@ -51,7 +51,7 @@ main {
 }
 
 .card:hover, .workout-card:hover {
-  transform: translateY(-10px);
+  transform: translateY(-5px);
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
 }
 
@@ -92,7 +92,7 @@ button {
 }
 
 button:hover {
-  background: #0056b3;
+  background: #a45d16;
 }
 
 /* Workout Layout */
@@ -294,12 +294,13 @@ button:hover {
 }
 
 .workout-card.active {
-  border: 3px solid #007bff;
-  background-color: #f0f8ff;
+  border: 3px solid #a45d16;
+  background-color: #fff;
+  color: #b26d09;
 }
 
 .workout-card.completed {
-  background-color: #d4edda;
+  background-color: #fff;
   border: 2px solid #28a745;
   color: #155724;
 }
