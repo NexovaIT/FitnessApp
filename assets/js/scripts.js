@@ -79,10 +79,10 @@ function showIllustrator(workoutName) {
       illustratorHTML = `<img src="assets/images/jumping-jacks.gif" alt="Jumping Jacks" class="workout-illustrator">`;
       break;
     case "Push Ups":
-      illustratorHTML = `<img src="assets/images/push-ups.gif" alt="Push Ups" class="workout-illustrator">`;
+      illustratorHTML = `<img src="assets/images/pushup.gif" alt="Push Ups" class="workout-illustrator">`;
       break;
     case "Squats":
-      illustratorHTML = `<img src="assets/images/squats.gif" alt="Squats" class="workout-illustrator">`;
+      illustratorHTML = `<img src="assets/images/squat.gif" alt="Squats" class="workout-illustrator">`;
       break;
     case "Plank":
       illustratorHTML = `<img src="assets/images/plank.gif" alt="Plank" class="workout-illustrator">`;
