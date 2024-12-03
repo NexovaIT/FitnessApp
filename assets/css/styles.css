@@ -212,9 +212,9 @@ button:hover {
 }
 
 .workout-card:hover {
-  transform: translateY(-10px);
+  transform: translateY(-5px);
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
-  background-color: #007bff;
+  background-color: #fff;
   color: #fff;
 }
 
